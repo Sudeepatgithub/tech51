@@ -12,7 +12,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     }
     
     header {
-      font-size: 125%;
+      font-size: 110%;
     }
     
     h1,
@@ -33,7 +33,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     }
     
     p {
-      margin: .33rem 0
+      margin: .2rem 0
     }
     
     body>div small {
@@ -52,8 +52,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
       body>div {
         font-size: 125%;
         padding: 1em;
-        width: 700px;
-        max-width: 100vw;
+        width: 1000px;
+        max-width: 2000vw;
         background: rgba(255, 255, 255, 0.86);
       }
       body>.background {
@@ -67,6 +67,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
         object-fit: cover;
       }
       .header-divider {
-        width: 430px;
+        width: 69px;
       }
     }
