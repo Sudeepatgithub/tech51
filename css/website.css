@@ -50,7 +50,7 @@
     @media screen and (min-width:570px) {
       body>div {
         font-size: 125%;
-        padding: 2em;
+        padding: .8em;
         width: 1000px;
         max-width: 2000vw;
         background: rgba(255, 255, 255, 0.86);
