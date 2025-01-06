@@ -24,9 +24,20 @@
       font-weight: normal;
       font-family: Roboto Slab, Garamond, serif;
     }
+
+    h4{
+      font-weight: normal;
+      font-family: Roboto Slab, Garamond, serif;
+    }
     
     .header-divider {
       border: 1px solid #E53935;
+      width: 325px;
+      margin: 1rem 0;
+    }
+
+    .name-divider {
+      border: 1px solid #00ab17;
       width: 325px;
       margin: 1rem 0;
     }
@@ -67,5 +78,8 @@
       }
       .header-divider {
         width: 90px;
+      }
+      .name-divider{
+        width: 100px;
       }
     }
