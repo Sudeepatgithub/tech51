@@ -2,54 +2,103 @@
 <html lang="en">
 
 <head>
-  <meta property="og:image" content="ogimage.png" />
-  <meta property="og:url" content="index.html" />
+  <meta property="og:image" content="pic/DP.jpg" />
   <meta name="viewport" content="initial-scale=1, maximum-scale=1,width=device-width,user-scalable=no">
-  <meta name="theme-color" content="#E64A19">
+  <meta name="theme-color" content="#121212">
   <meta charset="UTF-8">
-  <title>/dev/sudeep</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto+Slab:100" rel="stylesheet">
-  <script src="/js/main.js"></script>
+  <title>Sudeep | Portal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/website.css">
+  <style>
+    /* Homepage specific overrides/additions */
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      width: 90%;
+      max-width: 1000px;
+      margin: 2rem auto;
+    }
+
+    .card {
+      background-color: var(--surface-color);
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+      border-color: var(--accent-color);
+    }
+
+    .card h2 {
+      color: #fff;
+      margin-top: 0;
+      font-size: 1.5rem;
+    }
+
+    .card p {
+      color: var(--text-secondary);
+      flex-grow: 1;
+    }
+
+    .card-link {
+      margin-top: 1.5rem;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    header {
+      margin-top: 4rem;
+    }
+  </style>
 </head>
 
 <body>
-  <div id="container" class="transparent">
-    <header>
-      <h1>Hello, I'm Sudeep <img src="./pic/DP.jpg" alt="Sudeep's Profile Photo" style="vertical-align: middle; margin-left: 10px; border-radius: 20%; max-width: 120px;"></h1>
-      <div class="name-divider"></div>
-      <h3>Software Engineer | Ireland 🇮🇪 </h3>
-      <h4>7 years of experience in backend and mobile development. <br>
-        Worked across Merchandising, AdTech, Job Portal, Food Delivery, and TelcoCloud domains.</h4>
-      <div class="name-divider"></div>
-    </header>
-    <main>
-      <p>Currently Engineering @ <a href="https://www.vmware.com/products/software-defined-edge/telco-cloud/ric" target="_blank">VMware</a> to stream 5g/lte data in cloud <a href="https://www.vmware.com/products/software-defined-edge/telco-cloud/platform-ran" target="_blank">RAN</a> </p>
-      <p>Previously marketing engineering @ <a href="https://groupon.ie/" target="_blank">groupon</a>, worked with placing Ads </p>
-      <p>Formerly Android	&#128241; engineer @ <a href="https://play.google.com/store/apps/details?id=naukriApp.appModules.login&hl=en" target="_blank">naukri.com</a>, India's #1 Job Portal 🇮🇳</p>
-      <p>Studied MSc. CS at <a href="https://www.cs.ucd.ie/PostgraduateProgrammes/MSc_Negotiated_Learning/" target="_blank">UCD</a>, Dublin</p>
-      <p>Cofounded <a href="https://www.instagram.com/bluntnetworksindia/">Blunt Networks </a>- Media Marketing Company</p>
-      <p>designed T-shirts &#x1F455 for <a href="https://www.bewakoof.com/" target="_blank">bewakoof.com</a></p>
-      <p>interned with <a href="https://www.bewakoof.com/" target="_blank">Chefensa</a>, a food delivery startup</p>
-      <div class="header-divider"></div>
-      <p><a href="https://www.youtube.com/watch?v=P0akt4p58EE">DJ-ing</a> side hustle 🎧🎶</p>
-      <p><a href="http://github.com/sudeepatgithub">github</a> projects</p>
-      <p><a href="https://www.hackerrank.com/SudeepSrivastav">hackerrank/sudeep</a> ds-algo medals here &#x1F913</p>
-      <p>checkout my <a href="https://www.quora.com/profile/Sudeep-Srivastava-3">quora</a> answers</p>
-      <p><a href="https://www.tech51.in/">tech51</a> because 51 is my lucky number 🍀</p>
-      <div class="header-divider"></div>
-      <p><a href="https://www.linkedin.com/in/sudeep51/">linkedIn</a><a> | </a><a href="https://docs.google.com/document/d/1LK2U5TB1pCzZiTScxFgx7_Y5cYvWcZLc4lIK1KJ91XY/edit?usp=sharing">Resume</a></p>
-      <p></p>
-      <div class="header-divider"></div>
-    </main>
-    <aside>
-    </aside>
-  </div>
-</body>
-<footer>
-<p>// 2025 Update: currently writing some technical blogs to put here. stay tuned!</p>
-</footer>   
 
+  <header>
+    <h1>Welcome <img src="pic/DP.jpg" alt="Sudeep" style="width: 80px; height: 80px; margin-left: auto;"></h1>
+    <div class="name-divider"></div>
+    <h3>Software Engineer | Creator</h3>
+    <div class="name-divider"></div>
+  </header>
+
+  <div class="grid-container">
+
+    <!-- Card: About / CV -->
+    <a href="about.html" class="card" style="text-decoration: none;">
+      <h2>About Me & CV</h2>
+      <p>Read about my experience, view my resume, and see my background.</p>
+      <span class="card-link">View Profile &rarr;</span>
+    </a>
+
+    <!-- Card: Pomodoro -->
+    <a href="pomodoro/index.html" class="card" style="text-decoration: none;">
+      <h2>Pomodoro Timer</h2>
+      <p>A simple, focus-enhancing timer with configurable sessions and breaks.</p>
+      <span class="card-link">Start Focus &rarr;</span>
+    </a>
+
+    <!-- Card: Future Projects -->
+    <div class="card" style="opacity: 0.7; cursor: default;">
+      <h2>Future Projects</h2>
+      <p>More tools and experiments coming soon. Stay tuned!</p>
+      <span class="card-link" style="color: var(--text-secondary);">Coming Soon</span>
+    </div>
+
+  </div>
+
+</body>
 
 </html>
