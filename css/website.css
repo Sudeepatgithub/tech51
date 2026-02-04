@@ -1,12 +1,12 @@
 /* Modern Dark Theme Variables */
 :root {
-  --bg-color: #121212;
-  --surface-color: #1e1e1e;
-  --text-primary: #e0e0e0;
-  --text-secondary: #a0a0a0;
-  --accent-color: #64ffda;
-  /* Teal accent */
-  --divider-color: #333333;
+  --bg-color: #000000;
+  --surface-color: #1c1c1e;
+  --text-primary: #f5f5f7;
+  --text-secondary: #86868b;
+  --accent-color: #2997ff;
+  /* System Blue */
+  --divider-color: #38383a;
   --spacing-unit: 1rem;
 }
 
