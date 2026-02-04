@@ -31,6 +31,14 @@ yesBtn.addEventListener('click', () => {
   // Show celebration
   celebration.classList.remove('hidden');
   fireConfetti();
+
+  // Track the click
+  fetch('https://api.counterapi.dev/v2/sudeep-srivastavas-team-2773/first-counter-2773/up', {
+    headers: { 'Authorization': 'Bearer ut_rLNYTWpuWxunLCbczJns3qJH2KShYuGxKYuCxTQW' }
+  })
+    .then(response => response.json())
+    .then(data => console.log('Yes clicked! Total count:', data.count))
+    .catch(err => console.error('Error tracking click:', err));
 });
 
 // ------------------------------------------
